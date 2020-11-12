@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "277638962073",
+    "firebase_url": "https://jada-a.firebaseio.com",
+    "project_id": "jada-a",
+    "storage_bucket": "jada-a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277638962073:android:83eaac0f6afa98084fd108",
+        "android_client_info": {
+          "package_name": "com.example.jadaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277638962073-vehh7ps0pkttavp5onfqcto1st6rn675.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jadaa",
+            "certificate_hash": "91ce285c301981c6c490e834cfe131dda58a4097"
+          }
+        },
+        {
+          "client_id": "277638962073-3fsps3au3evucod863h9mcsn76vaip3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB46OxN7Dn-UsZ7Zjz_1JA4UYje4yUGp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277638962073-3fsps3au3evucod863h9mcsn76vaip3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

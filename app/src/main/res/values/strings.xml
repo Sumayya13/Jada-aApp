@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Jada\'a</string>
+    <string name="title_activity_fragment_navigation_view">FragmentNavigationView</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_Profile">Profile</string>
+    <string name="menu_College">College</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: drop down list in add post page  -->
+    <string-array name="college">
+        <item>Choose College</item>
+        <item>College of Computer and Information Sciences</item>
+        <item>College of Engineering</item>
+        <item>College of Science</item>
+        <item>College of Food and Agricultural Sciences</item>
+        <item>College of Architecture and Planning</item>
+        <item>College of Business Administration</item>
+        <item>Community College</item>
+        <item>College of Applied Studies and Community Services</item>
+        <item>Prince Sultan Bin Abdulaziz College for Emergency Medical Services</item>
+        <item>College of Medicine</item>
+        <item>College of Dentistry</item>
+        <item>College of Pharmacy</item>
+        <item>College of Applied Medical Sciences</item>
+        <item>College of Nursing</item>
+        <item>College of Law and Political Sciences</item>
+        <item>College of Languages and Translation</item>
+        <item>College of Tourism and Archeology</item>
+        <item>Arabic Language Institute</item>
+        <item>College of Sport Sciences and Physical Activity</item>
+        <item>College of Education</item>
+        <item>College of Arts</item>
+    </string-array>
+    <string name="title_activity_main2">Home</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_my_post">My Posts</string>
+    <string name="title_activity_my_order">My Order</string>
+    <string name="title_activity_favorite">Favorite</string>
+    <string name="title_activity_edit">editActivity</string>
+
+
+</resources>

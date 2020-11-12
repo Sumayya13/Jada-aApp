@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink">#DBC6DA</color>
+    <color name="blue">#A2E5FB</color>
+    <color name="purbul">#AB97BF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whiteless">#BFFFFFFF</color>
+    <color name="DArkpurbul">#9973BF</color>
+    <color name="Darkblue">#73CEEC</color>
+
+
+    <color name="mtrl_textinput_default_box_stroke_color" override="true">#DBC6DA</color>
+
+</resources>

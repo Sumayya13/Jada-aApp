@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewMyPostActivity"
+    android:background="@drawable/pup5">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@drawable/ic_wave_3"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/colorPrimaryDark"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/arrow_back_ios_blue"
+        app:titleTextColor="#F9F9F9"
+        tools:ignore="MissingConstraints">
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="409dp"
+        android:layout_height="550dp"
+        android:scrollbarStyle="insideInset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:scrollbarFadeDuration="0"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/bookImage"
+                    android:layout_width="241dp"
+                    android:layout_height="271dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@drawable/ic_baseline_menu_book_24blue"
+                    android:foregroundGravity="center"
+                    android:padding="0dp"
+                    android:scaleType="fitXY"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/BookTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@drawable/round_border_blue"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Title"
+                    android:inputType="textPersonName|textMultiLine"
+                    android:padding="16dp"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="100dp"
+                    android:textColor="#111111"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bookImage"
+                    tools:ignore="Suspicious0dp" />
+
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@drawable/round_border_blue"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Description"
+                    android:inputType="textPersonName|textMultiLine"
+                    android:padding="16dp"
+                    android:textColor="#111111"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/BookTitle"
+                    tools:ignore="Suspicious0dp" />
+
+                <TextView
+                    android:id="@+id/auther_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@drawable/round_border_blue"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Auther"
+                    android:inputType="textPersonName|textMultiLine"
+                    android:padding="16dp"
+                    android:textColor="#111111"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/description"
+                    tools:ignore="Suspicious0dp" />
+
+                <TextView
+                    android:id="@+id/edition"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@drawable/round_border_blue"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Edition"
+                    android:inputType="phone"
+                    android:padding="16dp"
+                    android:textColor="#111111"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/auther_name"
+                    tools:ignore="Suspicious0dp" />
+
+
+                <TextView
+                    android:id="@+id/bookPrice"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@drawable/round_border_blue"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="Price"
+                    android:inputType="phone"
+                    android:padding="16dp"
+                    android:textColor="#111111"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/edition"
+                    tools:ignore="Suspicious0dp" />
+
+
+                <TextView
+                    android:id="@+id/college"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@drawable/round_border_blue"
+                    android:drawablePadding="16dp"
+                    android:ems="10"
+                    android:hint="college"
+                    android:inputType="textPersonName|textMultiLine"
+                    android:padding="16dp"
+                    android:textColor="#111111"
+                    android:textSize="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bookPrice"
+                    tools:ignore="Suspicious0dp" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

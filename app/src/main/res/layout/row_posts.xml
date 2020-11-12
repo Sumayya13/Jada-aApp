@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="13dp"
+    app:cardElevation="3dp"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@android:color/white"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/uPictureIv"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/user1"
+                android:layout_margin="5dp"
+                android:scaleType="centerCrop">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/uNameTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Name"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/pTimeTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="33 min">
+                </TextView>
+
+            </LinearLayout>
+            
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+<!--
+            <LinearLayout
+                android:layout_width="206dp"
+                android:layout_height="186dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:scrollbars="vertical"
+                    android:id="@+id/pTitle"
+                    android:layout_width="181dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center_horizontal|center_vertical|center"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Title"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/pDescriptionTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Book Description"
+                    android:textColor="#E91E63"></TextView>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/pImageIv"
+                android:layout_width="164dp"
+                android:layout_height="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/white"></ImageView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+         -->
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/pImageIv"
+                android:layout_width="138dp"
+                android:layout_height="203dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_baseline_menu_book_24blue"
+                android:foregroundGravity="center"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:scrollbars="vertical"
+                    android:id="@+id/pTitle"
+                    android:layout_width="181dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center_horizontal|center_vertical|center"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Title"
+                    android:textSize="16sp"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:id="@+id/pDescriptionTv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Book Description"
+                    android:textColor="#E91E63"></TextView>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

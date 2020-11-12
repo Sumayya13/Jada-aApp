@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pup"
+    tools:context=".myCustomersDetails">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@drawable/arrow_back_ios_checkout"
+        app:titleTextColor="#050000"></androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#D5FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bookImage"
+                android:layout_width="138dp"
+                android:layout_height="203dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_baseline_menu_book_24blue"
+                android:foregroundGravity="center"
+                android:padding="0dp"
+                android:scaleType="fitXY"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/BookTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:lines="2"
+                    android:text="Title"
+                    android:textColor="#111111"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/auther_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:lines="2"
+                    android:text="Auther"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/edition"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:lines="2"
+                    android:text="Edition"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/bookPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="2dp"
+                    android:gravity="center"
+                    android:lines="2"
+                    android:text="Pricee"
+                    android:textSize="14dp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="order ID:" />
+
+
+            <TextView
+                android:id="@+id/order_ID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="#14867409382233" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="order date:" />
+
+
+            <TextView
+                android:id="@+id/order_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="03-Nov-2020 12:33"/>
+
+
+        </LinearLayout>
+<!---
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/purbul"
+            android:text="" />
+
+        -->
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:lines="1"
+                android:text="Customer Info"
+                android:textColor="#E90E71BF"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="273dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:lines="1"
+                android:text=""
+                android:textSize="14dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="53dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/profile_user"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/purchaserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:lines="1"
+                android:text="Lana salem"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="53dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/phone_call_2"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/purchaserPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:lines="1"
+                android:text="053505673402"
+                android:textSize="14dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#E90E71BF"
+                    android:text="Click the circle to change order status"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LLProcessing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/IvProcessing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/processing_status"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:id="@+id/TvProcessing"
+                    android:layout_width="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="Processing"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/LLshipped"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/Ivshipped"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/shipped__status"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:id="@+id/Tvshipped"
+                    android:layout_width="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="Shipped       "
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/LLinTransit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/IvinTransit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/intransit_status"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:id="@+id/TvinTransite"
+                    android:layout_width="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="In Transit  "
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/LLdelivered"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/Ivdelivered"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/delivered__status"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <TextView
+                    android:id="@+id/Tvdelivered"
+                    android:layout_width="100dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="Delivered"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
